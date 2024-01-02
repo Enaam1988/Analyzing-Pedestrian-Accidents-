@@ -52,7 +52,7 @@ If you wish to access the visualizations via API routes, the Flask application p
 - `[/map](http://127.0.0.1:5000/)`: Retrieves data for Visualization map.
 - `[/pie](http://127.0.0.1:5000/)`: Retrieves data for Visualization pie.
 - `[/bar](http://127.0.0.1:5000/)`: Retrieves data for Visualization bar.
-- `[/pie](http://127.0.0.1:5000/)`: Retrieves data for Visualization pie.
+- `[/dashboard](http://127.0.0.1:5000/)`: Retrieves data for Visualization dashboard.
 ## Ethical Considerations
 
 In accordance with the principles outlined in the privacy policy of Data.gov.au, we are committed to upholding ethical standards throughout our project involving pedestrian crash data. The following considerations guide our ethical approach:
