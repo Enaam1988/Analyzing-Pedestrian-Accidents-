@@ -19,6 +19,12 @@ Before getting started, make sure you have the following prerequisites installed
 
 - [Python](https://www.python.org/downloads/)
 - [Flask](https://flask.palletsprojects.com/en/2.1.x/installation/)
+- 2. ```python
+# Running the Project with Flask-CORS
+
+1. Install Flask-CORS using pip:
+   ```bash
+   pip install Flask-CORS
 - [SQLite]( https://www.sqlite.org/download.html)
 
 ### Database Setup
@@ -28,8 +34,8 @@ To set up the database for this project, follow these steps:
 1. **Database Creation:** Using Python in Jupyter Notebook, create a database and connect to an existing SQLite.
 ### Running the Project
 
-1. Run the Flask application: 
-2. Open your web browser and navigate to the provided URL (usually `http://127.0.0.1:5000/`).
+1. Run the Flask application.
+3. Open your web browser and navigate to the provided URL (usually `http://127.0.0.1:5000/`).
 
 ### Interacting with Visualizations
 
