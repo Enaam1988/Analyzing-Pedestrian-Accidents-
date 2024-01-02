@@ -54,6 +54,13 @@ If you wish to access the visualizations via API routes, the Flask application p
 - `[/bar](http://127.0.0.1:5000/)`: Retrieves data for Visualization bar.
 - `[/dashboard](http://127.0.0.1:5000/)`: Retrieves data for Visualization dashboard.
 - `[/api/all-data-json](http://127.0.0.1:5000/)`: Retrieves data as json.
+
+## Development Workflow
+
+Here is a visual representation of our development workflow:
+
+![Development Workflow](static/image.png)
+
 ## Ethical Considerations
 
 In accordance with the principles outlined in the privacy policy of Data.gov.au, we are committed to upholding ethical standards throughout our project involving pedestrian crash data. The following considerations guide our ethical approach:
