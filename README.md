@@ -18,8 +18,7 @@ This data visualization project aims to tell a compelling story using data visua
 Before getting started, make sure you have the following prerequisites installed:
 
 - [Python](https://www.python.org/downloads/)
-- [Flask](https://flask.palletsprojects.com/en/2.1.x/installation/)
-- [] 
+- [Flask](https://flask.palletsprojects.com/en/2.1.x/installation/) 
 # Running the Project with Flask-CORS
 
 1. Install Flask-CORS using pip:
