@@ -19,6 +19,7 @@ Before getting started, make sure you have the following prerequisites installed
 
 - [Python](https://www.python.org/downloads/)
 - [Flask](https://flask.palletsprojects.com/en/2.1.x/installation/)
+- [] 
 # Running the Project with Flask-CORS
 
 1. Install Flask-CORS using pip:
@@ -30,7 +31,13 @@ Before getting started, make sure you have the following prerequisites installed
 
 To set up the database for this project, follow these steps:
 
-1. **Database Creation:** Using Python in Jupyter Notebook, create a database and connect to an existing SQLite.
+1. **Database Creation:** Using Python in Jupyter Notebook, run the starter cod to create a database and connect to SQLite.
+   ```python
+   # Example for creating a SQLite database
+   import sqlite3
+
+   # Connect to the database or create it if it doesn't exist
+   conn = sqlite3.connect('crash_database.db')
 ### Running the Project
 
 1. Run the Flask application.
