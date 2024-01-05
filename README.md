@@ -56,12 +56,12 @@ To set up the database for this project, follow these steps:
 If you wish to access the visualizations via API routes, the Flask application provides interactive API endpoints. You can make requests to these endpoints to retrieve specific visualizations as JSON data.
 
 - Example API routes:
-- `[/map](http://127.0.0.1:5000/)`: Retrieves data for Visualization map.
-- `[/pie](http://127.0.0.1:5000/)`: Retrieves data for Visualization pie chart.
-- `[/bar](http://127.0.0.1:5000/)`: Retrieves data for Visualization bar chart.
-- `[/lines](http://127.0.0.1:5000/)`: Retrieves data for Visualization lines chart.
-- `[/dashboard](http://127.0.0.1:5000/)`: Retrieves data for Visualization dashboard.
-- `[/api/all-data-json](http://127.0.0.1:5000/)`: Retrieves data as json.
+- `[/map]`: Retrieves data for Visualization map.
+- `[/pie]`: Retrieves data for Visualization pie chart.
+- `[/bar]`: Retrieves data for Visualization bar chart.
+- `[/lines]`: Retrieves data for Visualization lines chart.
+- `[/dashboard]`: Retrieves data for Visualization dashboard.
+- `[/api/all-data-json]`: Retrieves data as json.
 
 ## Development Workflow
 
