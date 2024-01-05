@@ -57,8 +57,9 @@ If you wish to access the visualizations via API routes, the Flask application p
 
 - Example API routes:
 - `[/map](http://127.0.0.1:5000/)`: Retrieves data for Visualization map.
-- `[/pie](http://127.0.0.1:5000/)`: Retrieves data for Visualization pie.
-- `[/bar](http://127.0.0.1:5000/)`: Retrieves data for Visualization bar.
+- `[/pie](http://127.0.0.1:5000/)`: Retrieves data for Visualization pie chart.
+- `[/bar](http://127.0.0.1:5000/)`: Retrieves data for Visualization bar chart.
+- `[/lines](http://127.0.0.1:5000/)`: Retrieves data for Visualization lines chart.
 - `[/dashboard](http://127.0.0.1:5000/)`: Retrieves data for Visualization dashboard.
 - `[/api/all-data-json](http://127.0.0.1:5000/)`: Retrieves data as json.
 
