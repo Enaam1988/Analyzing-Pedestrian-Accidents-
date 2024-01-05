@@ -67,7 +67,7 @@ If you wish to access the visualizations via API routes, the Flask application p
 
 Here is a visual representation of our development workflow:
 
-![Development Workflow](static/image.png)
+![Development Workflow](static/img.png)
 
 ## Ethical Considerations
 
