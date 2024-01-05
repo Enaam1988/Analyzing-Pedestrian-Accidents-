@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Map Page</title>
+    <!-- Leaflet CSS -->
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"
+      integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY="
+      crossorigin="" />
+
+     <!-- Leaflet JavaScript -->
+     <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"
+     integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo="
+     crossorigin=""></script>
+     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
+     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+
+
+    <link rel="stylesheet" type="text/css" href="/static/map.css">
+</head>
+<body>
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <div class="container px-5">
+        <a class="navbar-brand" href="http://127.0.0.1:5000/">Pedestrian Crashes</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                <li class="nav-item"><a class="nav-link active" aria-current="page" href="http://127.0.0.1:5000/">Home</a></li>
+            
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="visualizationDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">Visualization</a>
+                    <ul class="dropdown-menu" aria-labelledby="visualizationDropdown">
+                        <li><a class="dropdown-item" href="http://127.0.0.1:5000/pie">Pie Chart</a></li>
+                        <li><a class="dropdown-item" href="http://127.0.0.1:5000/bar">Bar Chart</a></li>
+                        <li><a class="dropdown-item" href="http://127.0.0.1:5000/lines">lines Chart</a></li>
+                        <li><a class="dropdown-item" href="http://127.0.0.1:5000/dashboard">Dashboard</a></li>
+                        
+                    </ul>
+                </li>
+                <li class="nav-item"><a class="nav-link" href="http://127.0.0.1:5000/map">Map</a></li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+    
+    <div id="map"style="height: 700px;"></div>></div>
+
+    
+    <script src="/static/map.js"></script>
+</body>
+</html>

@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Types of Crashes</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/3.8.0/chart.min.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    
+    <style>
+        body {
+            background-color: #E1D9D1; /* Set the background color for the page */
+        }
+        
+    #myLineChart {
+    max-width: 1000px; 
+    margin: 0 auto;
+    display: block;
+    box-sizing: border-box;
+    height: 700px; 
+    width: 100%; 
+}
+    </style>
+</head>
+<body>
+    <div class="container">
+       
+        <div class="container mt-4">
+            <div class="container">
+                <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+                    <div class="container px-5">
+                        <a class="navbar-brand" href="http://127.0.0.1:5000/">Pedestrian Crashes</a>
+                        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
+                        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                            <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                                <li class="nav-item"><a class="nav-link active" aria-current="page" href="http://127.0.0.1:5000/">Home</a></li>
+                                
+                                <li class="nav-item dropdown">
+                                    <a class="nav-link dropdown-toggle" href="#" id="visualizationDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">Visualization</a>
+                                    <ul class="dropdown-menu" aria-labelledby="visualizationDropdown">
+                                        <li><a class="dropdown-item" href="http://127.0.0.1:5000/pie">Pie Chart</a></li>
+                                        <li><a class="dropdown-item" href="http://127.0.0.1:5000/bar">Bar Chart</a></li>
+                                        <li><a class="dropdown-item" href="http://127.0.0.1:5000/lines">lines Chart</a></li>
+                                        <li><a class="dropdown-item" href="http://127.0.0.1:5000/dashboard">Dashboard</a></li>
+                                        
+                                    </ul>
+                                </li>
+                                <li class="nav-item"><a class="nav-link" href="http://127.0.0.1:5000/map">Map</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </nav>
+            
+            <h1>Types of Crashes</h1>
+            <p>The Lines chart are effective in showing trends over time. Let's visualize the frequency of different types of road accidents over time using a line chart.
+            It is evident that the most common type of crash recorded is "Struck pedestrian (On Road)." This finding suggests that incidents involving pedestrians being struck while on the road have been the predominant form of accidents in the dataset. This insight underscores the importance of pedestrian safety measures and highlights the need for increased awareness and preventive actions to reduce such incidents on the roadways. It also emphasizes the significance of continuously monitoring and addressing the factors contributing to these accidents to enhance road safety for pedestrians and all road users.
+            </p>
+            
+            <div>
+                <canvas id="myLineChart"></canvas>
+            </div>
+        
+        </div>
+    </div>
+    <script src="/static/lines.js"></script>
+</body>
+</html>
