@@ -31,7 +31,7 @@ Before getting started, make sure you have the following prerequisites installed
 
 To set up the database for this project, follow these steps:
 
-1. **Database Creation:** Using Python in Jupyter Notebook, run the starter cod to create a database and connect to SQLite.
+1. **Database Creation:** Using Python in Jupyter Notebook, run the starter_code note book to create a database and connect to SQLite.
    ```python
    # Example for creating a SQLite database
    import sqlite3
