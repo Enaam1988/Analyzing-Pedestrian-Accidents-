@@ -1,4 +1,5 @@
-# Analyzing-Pedestrian-Accidents-
+# Pedestrian Crashes
+## Analyzing-Pedestrian-Accidents-
 ## Project Overview and Purpose
 
 This  Analyzing-Pedestrian-Accidents compiles and analyzes data related to Pedestrian Crashes reported since 2012, as documented by the Australian Federal Police (AFP) through the AFP Crash Report Form. The primary purpose of this project is to provide insights into pedestrian safety and accident patterns in Australia. It aims to:
