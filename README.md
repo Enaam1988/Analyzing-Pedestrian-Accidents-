@@ -103,5 +103,27 @@ By utilizing Chart.js for data visualization, Bootstrap for HTML page design, an
 
 Please refer to the respective documentation and licenses of the data source, chart library, and Bootstrap for more details.
 
+## Team Contributions
+
+- **Enaam Hamad:** Enaam spearheaded the team, initiated the coding process, and consolidated conceptualizations for the primary webpage's appearance. Enaam also oversaw the mapping aspect of the project.
+
+- **Bisma Jalili and Shaza Abdalsalam:** Bisma and Shaza assumed responsibility for the conception and organization of the bar chart and linear chart elements.
+
+- **Jose Alatorre and shaza Abdasalam:** Jose actively contributed to ideation, facilitating the seamless integration of ideas for the website presentation while ensuring the cohesive amalgamation of everyone's contributions.
+
+- **Zainab Arif:** In collaboration with Enaam, Zainab undertook the development of the dashboard and the pie chart 
+
+## Contact
+
+If you have any questions or need further information, please contact us:
+
+- Enaam Hamad: [emoemo1988@yahoo.com]
+- Bisma Jalili: [bismajalili@gmail.com]
+- Shaza Abdalsalam: [shazaaali94@gmail.com]
+- Jose Alatorre: [josealatorre@utexas.edu]
+- Zainab Arif: [zainab.arif1998@gmail.com]
+
+
+
 
 
